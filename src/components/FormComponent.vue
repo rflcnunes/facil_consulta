@@ -18,7 +18,7 @@
           </b-row>
         </b-form>
         <progress-component></progress-component>
-        <button-primary v-on:data="getValue"></button-primary>
+        <button-primary title="Salvar" v-on:data="getValue"></button-primary>
       </b-col>
       <b-col class="cols image">
         <div>
